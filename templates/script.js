@@ -1,6 +1,6 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function() {
-    var socket = new WebSocket("ws://192.168.1.8:8765");
+    var socket = new WebSocket("ws://0.0.0.0:8765");
 
     socket.onopen = function() {
         console.log("Connected to the server");
