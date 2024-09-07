@@ -11,8 +11,8 @@ async def send_integers(websocket, path):
         while True:
             # Send two integer values to the client
             data = {
-                "v1": v1,
-                "v2": v2
+                "HeartRate": HeartRate,
+                "Step": Step
             }
             await websocket.send(json.dumps(data))
             HeartRate += 1
