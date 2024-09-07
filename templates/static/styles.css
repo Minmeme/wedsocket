@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.point1 {
+    font-family: 'Georgia', serif;
+    position: absolute; /* Positioning the icon absolutely */
+    color: black;
+    font-size: 100px; /* Adjust the size of the icon */
+    top: 150px; 
+    left: 500px;
+}
+
+.point2 {
+    font-family: 'Georgia', serif;
+    position: absolute; /* Positioning the icon absolutely */
+    color: black;
+    font-size: 100px; /* Adjust the size of the icon */
+    top: 550px; 
+    left: 500px; 
+}
+
+.heart-rete_box {
+    width: 1230px;         /* Width of the box */
+    height: 395px;        /* Height of the box */
+    background-color: rgb(182, 219, 235);/* Background color */
+    box-shadow: 20px 20px rgb(151, 183, 219);
+    margin: 30px;         /* Space around the box */
+}
+
+.step_box {
+    width: 1370px;         /* Width of the box */
+    height: 395px;        /* Height of the box */
+    background-color: rgb(182, 219, 235); /* Background color */
+    box-shadow: 20px 20px rgb(151, 183, 219);
+    margin: 30px;         /* Space around the box */
+}
+
+.icon {
+    position: absolute; /* Positioning the icon absolutely */
+    font-size: 250px; /* Adjust the size of the icon */
+    color: rgb(225, 45, 45); /* Change the color of the icon */
+    top: 100px;  /* Distance from the top of the page */
+    left: 100px; /* Distance from the left side of the page */
+}
+
+.walker {
+    color: rgb(113, 180, 50); /* Specific color for the walker icon */
+    top: 525px;  /* Distance from the top of the page */
+    left: 125px; /* Distance from the left side of the page */
+}
