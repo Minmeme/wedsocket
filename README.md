@@ -1,2 +1,2 @@
 # wedsocket
-thsi scpict for send data to app by wedsocket
+thsi scpict for send data to app and wedsite by wedsocket
