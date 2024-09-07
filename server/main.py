@@ -26,8 +26,8 @@ async def send_integers(websocket, path):
         print("Client disconnected")
 
 async def main():
-    server = await websockets.serve(send_integers, "192.168.1.8", 8765)
-    print("Server started at ws://192.168.1.8:8765")
+    server = await websockets.serve(send_integers, "0.0.0.0", 8765)
+    print("Server started at ws://0.0.0.0:8765")
     await server.wait_closed()
 
 # Run the server
